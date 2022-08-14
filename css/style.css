@@ -49,6 +49,18 @@ body {
 }
 
 
+
+.hr-length {
+    width: 50%;
+    border: none;
+    border-top: 0px;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
 .title2 {
     padding: 5px 0 10px;
     text-align: center;
@@ -57,6 +69,8 @@ body {
     line-height: normal;
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 1.5);
+
+    margin-bottom: -10px;
 }
 
 
@@ -64,6 +78,28 @@ body {
 
     .title {
         font-size: 15vw;
+    }
+
+    .title2 {
+        font-size: 6vw;
+    }
+}
+
+
+
+@media screen and (max-width:1000px) {
+
+    .card {
+        width: 20rem !important;
+    }
+}
+
+
+
+@media screen and (max-width:800px) and (min-width:1000px) {
+
+    .card {
+        width: 20rem !important;
     }
 }
 
@@ -78,4 +114,21 @@ h1 {
     text-align: center;
     padding: 0px 30px 30px 15px;
     font-style: italic;
+}
+
+.sheger-title h1 {
+    margin: 0px;
+    font-size: 7vw;
+    font-weight: 900;
+    text-align: center;
+    color: #f5ba69;
+    font-weight: 700;
+    text-shadow: 2px 2px 20px rgb(0 0 0);
+    text-align: center;
+    padding: 0px 30px 30px 15px;
+    font-style: italic;
+}
+
+.card-img-top {
+    box-shadow: 2px 2px 20px rgba(35, 33, 33, 0.5);
 }
