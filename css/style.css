@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 30px 50px;
 }
 
 
@@ -106,7 +105,7 @@ body {
 
 h1 {
     margin: 0px;
-    font-size: 7vw;
+    /* font-size: 7vw;*/
     font-weight: 900;
     text-align: center;
     color: #f5ba69;
@@ -140,4 +139,8 @@ h1 {
 
 .navbar-default .navbar-brand {
     color: rgb(0, 0, 0) !important;
+}
+
+.card {
+    padding-bottom: 30px;
 }
