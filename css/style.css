@@ -76,9 +76,9 @@ body {
 
 @media screen and (max-width:766px) {
 
-    .title {
+    /* .title {
         font-size: 15vw;
-    }
+    }*/
 
     .title2 {
         font-size: 6vw;
@@ -102,6 +102,7 @@ body {
         width: 20rem !important;
     }
 }
+
 
 h1 {
     margin: 0px;
@@ -131,4 +132,12 @@ h1 {
 
 .card-img-top {
     box-shadow: 2px 2px 20px rgba(35, 33, 33, 0.5);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(0, 0, 0) !important;
 }
