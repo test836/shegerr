@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 247, 255)), to(rgb(6, 98, 141))) fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(185, 236, 255, 0.9)), to(rgba(31, 186, 243, 0.9))) fixed;
     color: black !important;
     padding: 0;
     margin: 0;
