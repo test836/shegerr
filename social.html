@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+
+
+    <style>
+        .width {
+            width: 90%;
+        }
+
+        .card {
+            height: 200px;
+        }
+
+
+        @media screen and (max-width:700px) {
+
+            .width {
+                width: 70%;
+            }
+
+            .card {
+                height: auto;
+            }
+        }
+
+        footer {
+            background-color: rgba(69, 147, 175, 0.9);
+            background-image: linear-gradient(to right, rgba(185, 236, 255, 0.9), rgba(31, 186, 243, 0.9));
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+
+        footer h4 {
+            color: #FFBD59;
+            margin: 0;
+            padding: 10px 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+        }
+
+        @media screen and (max-width:470px) {
+            footer h4 {
+                font-size: 3.5vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="title">
+        <nav class="navbar navbar-default" role="navigation"
+            style="background-image: linear-gradient(to right, rgba(185, 236, 255, 0.9), rgba(31, 186, 243, 0.9));">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">Hemma</a>
+                </div>
+                <div class=" collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Sheger kaffe</a>
+                        </li>
+                        <li>
+                            <a href="restaurant.html">Restaurang</a>
+                        </li>
+                        <li>
+                            <a href="#">Hotelltjänster</a>
+                        </li>
+                        <li>
+                            <a href="#">Transport</a>
+                        </li>
+                        <li>
+                            <a href="#">Underhållning</a>
+                        </li>
+                        <li>
+                            <a href="#">Import och export</a>
+                        </li>
+                        <li>
+                            <a href="social.html">Sociala tjänster</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <main>
+
+        <hr class=" hr-length">
+        <div class="title2">Våra sociala tjänster</div>
+        <hr class="hr-length" style="margin-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+
+                <div style="margin: auto;" class="width">
+
+                    <div class="col-sm-4 text-center">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h3 class=" card-title">Hushållsarbete</h3>
+                                <p class="card-text">Vi hjälper med matlgagning, tvättning, städning,
+                                    omsorg, vattnar blommor, inköp m.m
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 text-center">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h3 class=" card-title">Barn & seniorer</h3>
+                                <p class="card-text">Vi tar väl hand om er barn och seniorer. Vi lagar mat åt dem,
+                                    hämtar och lämnar barnen på dagis och passar dem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 text-center">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h3 class=" card-title">Städning</h3>
+                                <p class="card-text">Vi städar kontor, rum, korridorer m.m. Vi hjälper dig med
+                                    schemalagd städning (storstädning,
+                                    flyttstädning, engångsstädning, fönsterputsning).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 text-center">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h3 class=" card-title">Utomhusarbete</h3>
+                                <p class="card-text">Vi hjälper med matlgagning, tvättning, städning,
+                                    omsorg, vattnar blommor, inköp m.m
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+    </main>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4><img src="phone.png"> <strong>0739947692</strong> <a
+                            style="color: inherit; text-decoration: none;" target="_blank" href="#">
+                            <img src="facebook.png"> <strong>sheger</strong></a> <a
+                            style="color: inherit; text-decoration: none;" target="_blank" href="#">
+                            <img src="instagram.png"> <strong>sheger</strong></a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
