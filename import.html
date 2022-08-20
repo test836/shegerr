@@ -6,32 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="font/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 
 
     <style>
-        .width {
-            width: 90%;
-        }
-
-        .card {
-            /* height: 180px;*/
-            height: auto;
-        }
-
-
-        @media screen and (max-width:700px) {
-
-            .width {
-                width: 70%;
-            }
-
-            .card {
-                height: auto;
-            }
-        }
-
         footer {
             background-color: rgba(69, 147, 175, 0.9);
             background-image: linear-gradient(to right, rgba(185, 236, 255, 0.9), rgba(31, 186, 243, 0.9));
@@ -61,19 +39,6 @@
                 width: auto !important;
             }
         }
-
-
-        .parent-to-center-child {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        @media screen and (max-width:1000px) {
-            .container {
-                width: auto !important;
-            }
-        }
     </style>
 </head>
 
@@ -92,6 +57,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+
                     <a class="navbar-brand" href="index.html">Hemma</a>
                 </div>
                 <div class=" collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -109,6 +75,9 @@
                             <a href="hotel.html">Hotelltjänster</a>
                         </li>
                         <li>
+                            <a href="transport.html">Transport</a>
+                        </li>
+                        <li>
                             <a href="#">Underhållning</a>
                         </li>
                         <li>
@@ -117,9 +86,6 @@
                         <li>
                             <a href="social.html">Sociala tjänster</a>
                         </li>
-                        <li>
-                            <a href="second.html">Second hand</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -127,59 +93,69 @@
 
     </div>
 
-    <main>
+    <main style=" padding-bottom: 100px;">
 
         <hr class=" hr-length">
-        <div class="title2">Transport tjänster</div>
+        <div class="title2">IMPORT AND EXPORT</div>
         <hr class="hr-length" style="margin-bottom: 30px;">
         <div class="container">
             <div class="row">
 
-                <div style="margin: auto;" class="width">
+                <div style="width: 90%; margin: auto;">
 
 
-                    <div class="col-sm-4 parent-to-center-child">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <i class="fa fa-taxi fa-5x"></i>
-                                <h3 class=" card-title">Taxi</h3>
-                                <p class="card-text">Boka vår taxitjänst på <strong>0739947692</strong>.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-md-4 col-sm-8">
+                        <img style="width: 100%; border-radius: 10px; border-radius: 10px; box-shadow: 0px 0px 5px black;"
+                            src="images/cars.jpg">
                     </div>
-
-
-                    <div class="col-sm-4 parent-to-center-child">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <i class="fa fa-motorcycle fa-5x"></i>
-                                <h3 class=" card-title">Leverans</h3>
-                                <p class="card-text">Vi levererar mat och producter på beställning.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h2>CARS</h2>
+                        <p>We do import and export of cars from and to Ehiopia. It normally takes us about one month to
+                            execute the transportation of the cars. The transportation are done safely not to cause any
+                            damage to the cars.
+                        </p>
+                        <p>Our prices vary depending on the size of the vehicles and their mileage.
+                        </p>
                     </div>
-
-                    <div class="col-sm-4 parent-to-center-child">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <i class="fa fa-truck fa-5x"></i>
-                                <h3 class=" card-title">Flyttjänst</h3>
-                                <p class="card-text">Vi erbjuder flytthjälp, packning, kontorsflytt.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
 
 
+
             </div>
+
+
         </div>
 
+        <br>
+        <br>
 
+
+        <div class="container">
+            <div class="row">
+
+                <div style="width: 90%; margin: auto;">
+
+
+                    <div class="col-md-4 col-sm-8">
+                        <img style="width: 60%; border-radius: 10px; border-radius: 10px; box-shadow: 0px 0px 5px black; display:block; margin:auto;"
+                            src="images/coffee.jpg">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h2>COFFEE</h2>
+                        <p>Coffee beans that are roasted and unroasted are also imported by us. The coffee is imported
+                            and delivered to you at a suitable prices.
+                        </p>
+                        <p>Here the prices depend on the weight of the beans.
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
 
     </main>
 
